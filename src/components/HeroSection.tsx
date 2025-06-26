@@ -1,5 +1,4 @@
-
-import { Github, Mail, MapPin, Phone, Briefcase } from "lucide-react";
+import { Mail, MapPin, Phone, Briefcase } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -12,24 +11,24 @@ const HeroSection = () => {
           Crafting digital experiences with passion and precision
         </p>
         
-        {/* Main Call-to-Action Buttons - Prominent */}
-        <div className="flex flex-wrap justify-center gap-8 mb-12 animate-fade-in">
+        {/* Main Call-to-Action Buttons - Now styled like contact info */}
+        <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-12 animate-fade-in">
           <a 
-            href="https://github.com" 
+            href="https://github.com/minh11221" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="flex items-center gap-3 px-8 py-4 bg-gray-900 text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-lg font-semibold"
+            className="flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 text-gray-700 hover:text-green-600 border border-gray-200"
           >
-            <Github size={28} />
-            <span>GitHub</span>
+            <img src="/github-mark.svg" alt="GitHub" className="w-5 h-5" />
+            <span className="font-medium">GitHub</span>
           </a>
           
           <a 
-            href="mailto:contact@example.com"
-            className="flex items-center gap-3 px-8 py-4 bg-blue-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-lg font-semibold hover:bg-blue-700"
+            href="mailto:minhtri22124@gmail.com"
+            className="flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 text-gray-700 hover:text-green-600 border border-gray-200"
           >
-            <Mail size={28} />
-            <span>Get in Touch</span>
+            <Mail size={18} />
+            <span className="font-medium">Get in Touch</span>
           </a>
         </div>
 
@@ -37,15 +36,27 @@ const HeroSection = () => {
         <div className="flex flex-wrap justify-center gap-4 md:gap-6 animate-fade-in">
           <div className="flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow-md text-gray-700">
             <MapPin size={18} />
-            <span className="font-medium">San Francisco, CA</span>
+            <span className="font-medium">Raleigh, NC</span>
           </div>
           
           <a 
-            href="tel:+1234567890"
+            href="tel:+17044212316"
             className="flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 text-gray-700 hover:text-green-600"
           >
             <Phone size={18} />
-            <span className="font-medium">+1 (234) 567-8900</span>
+            <span className="font-medium">+1 (704) 421-2316</span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/minhtripham0024/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 text-blue-700 hover:text-blue-900"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+              <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.28h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v5.59z"/>
+            </svg>
+            <span className="font-medium">LinkedIn</span>
           </a>
 
           <div className="flex items-center gap-2 px-4 py-2 bg-green-50 border border-green-200 rounded-lg shadow-md text-green-700">
