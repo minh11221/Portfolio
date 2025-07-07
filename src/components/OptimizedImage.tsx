@@ -23,18 +23,6 @@ const OptimizedImage = ({ src, alt, className = '', style, placeholder }: Optimi
 
   return (
     <div className={`relative ${className}`} style={style}>
-      {/* Placeholder */}
-      {!isLoaded && !isError && (
-        <div 
-          className="absolute inset-0 bg-gray-200 animate-pulse rounded-3xl"
-          style={{
-            backgroundImage: `url('${placeholder || defaultPlaceholder}')`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center'
-          }}
-        />
-      )}
-      
       {/* Main image */}
       <img
         src={src}
