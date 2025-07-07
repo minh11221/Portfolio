@@ -24,7 +24,7 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center px-4 py-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 text-gray-700 hover:text-green-600 border border-gray-200 w-12 h-12"
               >
-                <img src="/github-mark.svg" alt="GitHub" className="w-6 h-6" />
+                <img src="/Portfolio/github-mark.svg" alt="GitHub" className="w-6 h-6" />
               </a>
               <a 
                 href="mailto:minhtri22124@gmail.com"
@@ -57,7 +57,7 @@ const HeroSection = () => {
           <div className="flex justify-end items-center" style={{animationDelay: '0.6s', minHeight: '60vh'}}>
             <div className="relative w-[70vw] max-w-[700px] h-[70vh] min-h-[400px] flex items-center" style={{ transform: 'translateX(20%)' }}>
               <img 
-                src="/IMG_6077.jpg" 
+                src="/Portfolio/IMG_6077.jpg" 
                 alt="Minh Tri Pham"
                 className="w-full h-full object-cover object-center shadow-2xl rounded-3xl"
               />
