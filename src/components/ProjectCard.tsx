@@ -17,6 +17,12 @@ const ProjectCard = ({ title, description, technologies, imageUrl, projectUrl, g
             src={imageUrl} 
             alt={title}
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+            loading="lazy"
+            decoding="async"
+            style={{
+              backgroundColor: '#f3f4f6',
+              backgroundImage: `url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"><rect width="400" height="200" fill="%23f3f4f6"/><circle cx="200" cy="100" r="30" fill="%23d1d5db"/></svg>')`
+            }}
           />
         </div>
       )}

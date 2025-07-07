@@ -7,7 +7,7 @@ const ProjectsSection = () => {
       title: "CofeeMaker",
       description: "A full-stack web portal for managing a smart coffee maker system.",
       technologies: ["Angular JS", "JAVA", "Spring Boot", "REST API", "MySQL", "Bootstrap", "Junit5", "Git", "Maven"],
-      imageUrl: "oak-bond-coffee-co-D-ePjGt2xe8-unsplash.jpg",
+      imageUrl: "/Portfolio/oak-bond-coffee-co-D-ePjGt2xe8-unsplash.jpg",
       projectUrl: "#",
       githubUrl: "#"
     },
