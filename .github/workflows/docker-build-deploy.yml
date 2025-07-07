@@ -1,0 +1,28 @@
+name: Docker Build + GitHub Pages Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Build Docker image
+      run: docker build -t portfolio-build --target builder .
+      
+    - name: Extract built files
+      run: |
+        docker create --name temp-container portfolio-build
+        docker cp temp-container:/app/dist ./dist
+        docker rm temp-container
+        
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist

@@ -8,24 +8,24 @@ const ProjectsSection = () => {
       description: "A full-stack web portal for managing a smart coffee maker system.",
       technologies: ["Angular JS", "JAVA", "Spring Boot", "REST API", "MySQL", "Bootstrap", "Junit5", "Git", "Maven"],
       imageUrl: "oak-bond-coffee-co-D-ePjGt2xe8-unsplash.jpg",
-      projectUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      projectUrl: "#",
+      githubUrl: "#"
     },
     {
       title: "PackExchange ",
       description: "A modern e-commerce fullstack web application, combines a Node/Express API, SQL data layer, and a Bootstrap-based PWA front-end, deliver an online campus marketplace with search, sell.",
       technologies: ["Node.js", "Express.js", "REST API", "Mariadb", "Bootstrap", "JWT", "Docker"],
       imageUrl: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800",
-      projectUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      projectUrl: "#",
+      githubUrl: "#"
     },
     {
       title: "Weather Forecast App",
       description: "Interactive weather application with location-based forecasts, beautiful visualizations, and offline support. Integrates multiple weather APIs for accurate predictions.",
       technologies: ["React Native", "TypeScript", "Weather API", "Redux"],
       imageUrl: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800",
-      projectUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      projectUrl: "#",
+      githubUrl: "#"
     }
   ];
 
