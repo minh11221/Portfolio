@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Briefcase } from "lucide-react";
+import { Mail, MapPin, Briefcase } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -12,7 +12,7 @@ const HeroSection = () => {
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
               I'm a recent graduate from NCSU that specializes in full-stack web development.
-              When I'm not coding, you can find me exploring local hiking trails, cooking with friends, or simply playing commander magic with my buddies.
+              When I'm not coding, you can find me exploring local hiking trails, cooking, or simply playing commander magic with my friends.
               I'm available for jobs and internships opportunities, feels free to reach out via the links below!
             </p>
 
@@ -44,18 +44,11 @@ const HeroSection = () => {
               </a>
             </div>
 
-            {/* Contact Information - Phone and Job Availability on the same line */}
+            {/* Contact Information - Job Availability */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 animate-fade-in" style={{animationDelay: '0.4s'}}>
-              <a 
-                href="tel:+17044212316"
-                className="flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 text-gray-700 hover:text-green-600"
-              >
-                <Phone size={18} />
-                <span className="font-medium">+1 (704) 421-2316</span>
-              </a>
               <div className="flex items-center gap-2 px-4 py-2 bg-green-50 border border-green-200 rounded-lg shadow-md text-green-700">
                 <Briefcase size={18} />
-                <span className="font-medium">Available for jobs/internships</span>
+                <span className="font-medium">Looking for jobs / internships</span>
               </div>
             </div>
           </div>

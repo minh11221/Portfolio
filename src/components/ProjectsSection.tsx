@@ -4,17 +4,17 @@ import ProjectCard from "./ProjectCard";
 const ProjectsSection = () => {
   const personalProjects = [
     {
-      title: "Task Management App",
-      description: "A full-stack productivity application with real-time collaboration features, drag-and-drop interface, and advanced filtering options. Built with modern web technologies.",
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
-      imageUrl: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800",
+      title: "CofeeMaker",
+      description: "A full-stack web portal for managing a smart coffee maker system.",
+      technologies: ["Angular JS", "JAVA", "Spring Boot", "REST API", "MySQL", "Bootstrap", "Junit5", "Git", "Maven"],
+      imageUrl: "oak-bond-coffee-co-D-ePjGt2xe8-unsplash.jpg",
       projectUrl: "https://example.com",
       githubUrl: "https://github.com"
     },
     {
-      title: "E-Commerce Platform",
-      description: "Complete e-commerce solution with payment integration, inventory management, user authentication, and responsive design. Features include shopping cart, order tracking, and admin dashboard.",
-      technologies: ["Next.js", "Stripe", "Tailwind CSS", "Prisma"],
+      title: "PackExchange ",
+      description: "A modern e-commerce fullstack web application, combines a Node/Express API, SQL data layer, and a Bootstrap-based PWA front-end, deliver an online campus marketplace with search, sell.",
+      technologies: ["Node.js", "Express.js", "REST API", "Mariadb", "Bootstrap", "JWT", "Docker"],
       imageUrl: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800",
       projectUrl: "https://example.com",
       githubUrl: "https://github.com"
@@ -34,7 +34,7 @@ const ProjectsSection = () => {
       <section className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            My Projects
+            Projects showcase
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Passion projects that demonstrate creativity and problem-solving skills
