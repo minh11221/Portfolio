@@ -12,9 +12,9 @@ const HeroSection = () => {
               Hi. I'm Minh!
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              I'm a recent graduate from NCSU that specializes in full-stack web development.
-              When I'm not coding, you can find me exploring local hiking trails, cooking, or simply playing commander magic with my friends.
-              I'm available for jobs and internships opportunities, feels free to reach out via the links below!
+              I'm a recent graduate from NCSU who specializes in full-stack web development.
+              When I'm not coding, you can find me exploring local hiking trails, cooking, or simply playing Commander Magic with my friends.
+              I'm available for job and internship opportunities. Feel free to reach out via the links below!
             </p>
 
             {/* Main Call-to-Action Buttons + Location + LinkedIn */}
@@ -55,8 +55,8 @@ const HeroSection = () => {
           </div>
 
           {/* Right Side - Photo */}
-          <div className="flex justify-end items-center" style={{animationDelay: '0.6s', minHeight: '60vh'}}>
-            <div className="relative w-[70vw] max-w-[700px] h-[70vh] min-h-[400px] flex items-center" style={{ transform: 'translateX(20%)' }}>
+          <div className="flex justify-center lg:justify-end items-center" style={{animationDelay: '0.6s', minHeight: '60vh'}}>
+            <div className="relative w-[80vw] lg:w-[70vw] max-w-[700px] h-[50vh] lg:h-[70vh] min-h-[300px] lg:min-h-[400px] flex items-center" style={{ transform: 'lg:translateX(20%)' }}>
               <OptimizedImage
                 src="/Portfolio/IMG_6077.jpg"
                 alt="Minh Tri Pham"
