@@ -12,12 +12,16 @@ const HeroSection = () => {
               Hi. I'm Minh!
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              I'm a recent graduate from NCSU who specializes in full-stack web development.
+              Minh is a recent graduate from NCSU who passionate about building secure and scalable web applications.
+                  <br className="hidden sm:block" />
+              I'm interested in web development, cybersecurity and cloud computing.
+                  <br className="hidden sm:block" />
               When I'm not coding, you can find me exploring local hiking trails, cooking, or simply playing Commander Magic with my friends.
               I'm available for job and internship opportunities. Feel free to reach out via the links below!
+              <br className="hidden sm:block" />
             </p>
 
-            {/* Main Call-to-Action Buttons + Location + LinkedIn */}
+            {/* Main Call-to-Action Buttons + Location + LinkedIn + Job Availability */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-6 animate-fade-in" style={{animationDelay: '0.2s'}}>
               <a 
                 href="https://github.com/minh11221" 
@@ -43,10 +47,6 @@ const HeroSection = () => {
                   <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.28h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v5.59z"/>
                 </svg>
               </a>
-            </div>
-
-            {/* Contact Information - Job Availability */}
-            <div className="flex flex-wrap justify-center lg:justify-start gap-4 animate-fade-in" style={{animationDelay: '0.4s'}}>
               <div className="flex items-center gap-2 px-4 py-2 bg-green-50 border border-green-200 rounded-lg shadow-md text-green-700">
                 <Briefcase size={18} />
                 <span className="font-medium">Looking for jobs / internships</span>
