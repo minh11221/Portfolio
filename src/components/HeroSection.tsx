@@ -12,7 +12,7 @@ const HeroSection = () => {
               Hi. I'm Minh!
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              Minh is a recent graduate from NCSU who passionate about building secure and scalable web applications.
+              I'm a recent graduate from NCSU who is passionate about building secure and scalable web applications.
                   <br className="hidden sm:block" />
               I'm interested in web development, cybersecurity and cloud computing.
                   <br className="hidden sm:block" />
